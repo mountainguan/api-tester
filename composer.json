@@ -3,22 +3,22 @@
     "description": "Api tester for laravel",
     "type": "library",
     "keywords": ["laravel-admin", "api", "tester"],
-    "homepage": "https://github.com/laravel-admin-extensions/api-tester",
+    "homepage": "https://github.com/mountainguan/api-tester",
     "license": "MIT",
     "authors": [
         {
-            "name": "z-song",
-            "email": "zosong@126.com"
+            "name": "mountainguan",
+            "email": "gzs@renaren.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "laravel/framework": "~5.5",
-        "encore/laravel-admin": "~1.5"
+        "php": ">=7.2.0",
+        "laravel/framework": "6.0.*",
+        "encore/laravel-admin": "1.7.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
-        "laravel/laravel": "~5.5"
+        "phpunit/phpunit": "~8.0",
+        "laravel/laravel": "6.0.*"
     },
     "autoload": {
         "psr-4": {
