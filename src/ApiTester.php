@@ -75,7 +75,7 @@ class ApiTester extends Extension
 
         $symfonyRequest = SymfonyRequest::create(
             $uri, $method, $parameters,
-            [], $files, ['HTTP_ACCEPT' => 'application/json']
+            [], $files, ['HTTP_ACCEPT' => 'application/json','HTTP_USER_AGENT'=>'Inside 2.0 Debugger']
         );
 
         $request = Request::createFromBase($symfonyRequest);
